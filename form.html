@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>调查问卷</title>
+	<link type="text/css" rel="stylesheet" href="han.css">
+</head>
+
+<style type="text/css">
+	body{
+		line-height: 40px;
+		background-color: #BFBFBF;
+	}
+
+	#title h1{
+		margin: 20px 0 30px 42%;
+		font-size: 30px;
+	}
+</style>
+
+<body>
+	<section id="title">
+		<h1>调查问卷</h1>
+	</section>
+	<section id="fieldset">
+			<fieldset>
+				<legend>Questionnaire:</legend>
+
+				<form>
+					<p>请选择您的性别：</p>
+					<input type="radio" name="sex" value="male">男
+					<input type="radio" name="sex" value="female">女
+				</form>
+
+				<form>
+					<p>请填写您的填表日期：</p>
+					<input type="datetime-local" name="填表日期">
+				</form>
+
+				<form>
+					<p>请选择您的年龄:</p>
+					<select name="年龄">
+							<option value="未成年">0~17</option>
+							<option value="青年">18~30</option>
+							<option value="中年">30~60</option>
+							<option value="老年">60及以上</option>
+					</select>
+				</form>
+
+				<form>
+					<p>请问您的段位是什么：</p>
+					<input type="radio" name="dan" value="none">无段位
+					<input type="radio" name="dan" value="brass">黄铜
+					<input type="radio" name="dan" value="silver">白银
+					<input type="radio" name="dan" value="gold">黄金
+					<input type="radio" name="dan" value="platinum">铂金
+					<input type="radio" name="dan" value="master">大师
+					<input type="radio" name="dan" value="king">王者
+				</form>
+
+				<form>
+					<p>请问您是前端技术人员吗？</p>
+					<input type="radio" name="skill" value="none">完全不是
+					<input type="radio" name="skill" value="little">稍微懂一点
+					<input type="radio" name="skill" value="know">懂得基本技能
+					<input type="radio" name="skill" value="high">高级技术人员
+					<input type="radio" name="skill" value="amazing">大师你懂吗
+				</form>
+
+				<form>
+					<p>请给我的网页打一个分:</p>
+					<input type="number" name="points"
+					min="0" max="100" step="1" value="60">
+				</form>
+
+				<form>
+					<p>请问您觉得我的网页还有哪些不足的地方(多选)：</p>
+					<input type="checkbox" name="suggestion" value="内容不足">内容不足
+					<input type="checkbox" name="suggestion" value="样式不美">样式不美
+					<input type="checkbox" name="suggestion" value="广告太多">广告太多
+					<input type="checkbox" name="suggestion" value="布局不合理">布局不合理
+					<input type="checkbox" name="suggestion" value="标题不吸引人">标题不吸引人
+				</form>
+
+				<form>
+					<p>请问您觉得我的网页有哪些做得好的地方(多选):</p>
+					<select name="" id="hobby" multiple="multiple">
+						<option value="内容充足">内容充足</option>     
+		        <option value="样式优美">样式优美</option>   
+		        <option value="广告不多">广告不多</option>   
+		        <option value="布局合理">布局合理</option>   
+		        <option value="标题吸引人">标题吸引人</option>  
+		      </select>
+			  </form>
+
+			  <form>
+					<p>对我的其他建议:</p>
+					<textarea name="other suggestion" rows="10" cols="100"></textarea>
+				</form>
+
+			</fieldset>
+	</section>
+</body>
+
+<footer>
+	<input type="submit" name="submit">
+</footer>
+</html>
