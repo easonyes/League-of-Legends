@@ -1,0 +1,25 @@
+	body{
+		margin: 0;
+	}
+
+	#name h1{
+		margin: 10px 0 20px 40%;
+		font-size: 50px;
+	}
+
+
+	img{
+		float: right;
+	}
+
+	#introduce{
+		padding: 30px;
+		line-height: 30px;
+	}
+
+	footer{
+		margin: 0;
+		padding: 0;
+		height: 150px;
+		background: url(http://ossweb-img.qq.com/images/lol/v2/bg-footer.jpg)no-repeat center top;
+	}

@@ -1,0 +1,15 @@
+
+body{
+	margin: 50px 30%;
+}
+
+div{
+	height: 200px;
+}
+
+img{
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+
