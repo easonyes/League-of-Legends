@@ -1,5 +1,6 @@
 	body{
 		margin: 0;
+		background-color: #BFBFBF;
 	}
 
 	#name h1{
@@ -7,9 +8,19 @@
 		font-size: 50px;
 	}
 
+	pre{
+		font-size: 20px;
+
+	}
+
+	embed{
+	float: left;
+}
 
 	img{
 		float: right;
+		width: 35em;
+		height: 40em;
 	}
 
 	#introduce{
@@ -17,9 +28,32 @@
 		line-height: 30px;
 	}
 
+	.two{
+		margin: 20px  150px;
+		float: left;
+	}
+
+	table.players{
+		border-collapse:collapse;
+		border: 1px solid black;
+	}
+
+	table.players th{
+		padding: 5px 15px 5px 6px;
+		border: 1px solid black;
+		font-size: 20px;
+		text-align: left;
+	}
+
+	table.players td{
+		padding: 6px 15px 6px 6px;
+		border: 1px solid black;
+	}
+
 	footer{
 		margin: 0;
 		padding: 0;
 		height: 150px;
+		clear: both;
 		background: url(http://ossweb-img.qq.com/images/lol/v2/bg-footer.jpg)no-repeat center top;
 	}
