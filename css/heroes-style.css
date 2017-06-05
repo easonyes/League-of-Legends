@@ -2,6 +2,11 @@
 
 body{
 	margin: 0;
+	background-color: #BFBFBF;
+}
+
+#container{
+	margin: 50px 0 0 18%;
 }
 
 #top,#mid,#jungle,#adc,#sup{
