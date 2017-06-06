@@ -1,6 +1,7 @@
 
 body{
 	margin: 0;
+	background-color: #BFBFBF;
 }
 
 #nav-top{
@@ -50,10 +51,10 @@ h2{
 
 
 .hero,.team,.equip{
-	float: left;
 	margin: 10px 30px;
 	width: 44%;
 	height: 600px;
+	float: left;
 }
 
 .clearfix{
@@ -61,10 +62,11 @@ h2{
 }
 
 #renma,#kate,#yasuo,#rng,#edg,#omg,#wujin,#sanxiang,#keji{
-	float: left;
-	margin: 10px;
+	margin: 5px;
+	border: 1PX solid black;
 	width: 80%;
 	height: 180px;
+	float: left;
 }
 
 #hero img{
